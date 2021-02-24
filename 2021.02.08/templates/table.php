@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <div class="col text-center mt-3"><h4>Table</h4></div>
+        <div class="col text-center m-auto"><h4>Table</h4></div>
     </div>
     <table class="table table-bordered table-striped">
         <tr><th>ID</th><th>Name</th><th>Description</th><th>Time</th><th>Date</th><th>Edit</th><th>Delite</th></tr>  
