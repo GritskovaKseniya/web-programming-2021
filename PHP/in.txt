@@ -1,0 +1,13 @@
+1::Иванов Иван Ивонович::40::Водитель
+2::Петров Петр Петрович::32::Учитель
+3::Семенов Семен Семеныч::10::Школьник
+4::Vasya::22::Programmer
+5::Anya::34::Teacher
+6::Kirill::16::Student
+7::Varya::33::SEO
+8::Nikita::56::actor
+9::Vanya::28::accountant
+10::Andrey::85::ex-director
+11::1::1::1
+12::hjkl;::22::qwertyuiop[]
+13::123::123::123

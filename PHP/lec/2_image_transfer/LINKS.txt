@@ -1,0 +1,14 @@
+Get image from camera
+https://stackoverflow.com/questions/32208612/bytesio-object-to-image
+https://stackoverflow.com/questions/21669657/getting-cannot-write-mode-p-as-jpeg-while-operating-on-jpg-image
+
+About IO buffer
+https://stackoverflow.com/questions/42800250/difference-between-open-and-io-bytesio-in-binary-streams
+
+Read from IO buffer
+https://pythononline.ru/osnovy/modul-io-python
+
+Send image to socket
+https://ru.stackoverflow.com/questions/860624/%D0%9A%D0%B0%D0%BA-%D0%BF%D0%BE%D1%81%D0%BB%D0%B0%D1%82%D1%8C-%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%81%D0%BE%D0%BA%D0%B5%D1%82
+
+

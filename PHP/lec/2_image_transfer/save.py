@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+import io
+from PIL import Image
+rawbytes = b'_\x00`\x00[\x00^\x00`\x00`\x00\\\x00\\\x00Z\x00\\\x00_\x00[\x00\\\x00\\\x00`\x00]\x00\\\x00^\x00_\x00\\\x00\\\x00]\x00]\x00_\x00]\x00]\x00Z\x00\\\x00^\x00\\\x00Z\x00^\x00_\x00]\x00^\x00Z\x00\\\x00Z\x00\\\x00]\x00_\x00]\x00^\x00Z\x00[\x00[\x00X\x00]\x00]\x00Z\x00'
+
+#im = Image.frombuffer("F", (10, 5), rawbytes, "raw", "F;16")
+im = Image.frombuffer("I;16", (5, 10), rawbytes, "raw", "I;12")
+im.convert('RGB').save('test.jpg')
