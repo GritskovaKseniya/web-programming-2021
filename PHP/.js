@@ -33,26 +33,11 @@ const exportToSpreadsheet = (data, fileName) => {
 }
 
 $("#export_excel").on('click', ()=>{
-  fetch(`${window.location.origin}/PSTGU/2019/gritskova/2021/2021.02.15/utils.php`).then(resp => resp.json()).then(json => exportToSpreadsheet(json.data, 'Table_by_Kseniya'))
+  fetch('http://students.yss.su/PSTGU/PSTGU/2019/gritskova/2021/2021.02.15/api/list.php')
+    .then(resp => resp.json())
+    .then(json => exportToSpreadsheet(json.data, 'Table_by_Kseniya'))
 })
 
-$("#export_pdf").on('click', ()=>{
-    let doc = new jspdf.jsPDF({
-        orientation: 'p',
-        unit: 'mm',
-        format: 'a4',
-        putOnlyUsedFonts:true,
-        floatPrecision: 16 // or "smart", default is 16
-    });
-    doc.html(document.body, {
-        callback: function (doc) {
-            doc.context2d.scale(0.25, 0.25),
-            doc.save('Table_by_Kseniya.pdf');
-        },
-        x: 10,
-        y: 10
-     });
-  })
 
 
 

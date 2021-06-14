@@ -56,7 +56,8 @@ if(isset($_GET['Add'])){
                     <p>Age: <input type="text" class="form-control" placeholder="Enter age" name="age"/></p>
                 </div>
                 <div class="form-group">
-                    <p>Description: <input type="text" class="form-control" placeholder="Enter description" name="description"/></p>
+                    <p>Description: <input type="text" class="form-control" 
+                        placeholder="Enter description" name="description"/></p>
                 </div>
                 <div class="form-group">
                     <p><input type="submit" name = "Send" value="Send"/></p>
